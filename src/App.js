@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import './css/Signup.css'
+import './css/Navbar.css'
+import './css/Login.css'
+import './css/Todo.css'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'react-toastify/dist/ReactToastify.css';
+import Navbar from './components/Navbar';
+import { Route,Routes } from 'react-router-dom';
+import SignUp from './components/SignUp';
+import Login from './components/Login';
+import Todo from './components/Todo'
+import TodoList from './components/Todolist'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    {/* <Demo/> */}
+    <Routes>
+      <Route path='SignUP' element={<SignUp/>}/>
+      <Route path='/Login' element={<Login/>}/>
+      <Route path='Todo' element={<TodoList/>}/>
+    </Routes>
+     {/* <SignUp />
+     <Login/> */}
+    </>
   );
 }
 

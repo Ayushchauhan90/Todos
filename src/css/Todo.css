@@ -1,0 +1,47 @@
+.header {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 390px;
+}
+.todo-textarea {
+  width: 100%;
+}
+.todo-input {
+  width: 100%;
+  margin: 7px 0;
+}
+label.todo-label {
+  font-weight: 600;
+}
+
+form.todo-form {
+  margin: 14px 0px;
+  border-bottom: 12px solid #44444463;
+  background-color: #fff;
+  padding: 0 9px;
+  border-top: 8px solid #44444463;
+  border-left: 17px solid #44444463;
+  border-right: 8px solid #44444463;
+}
+form.todo-form h1 {
+  text-align: center;
+  color: cadetblue;
+  border-bottom: 3px solid;
+  padding-bottom: 11px;
+}
+.todo-text {
+  padding: 3px 11px;
+  border: 1px solid #44444445;
+  margin: 3px 0px;
+  border-radius: 5px;
+  background: #4444441a;
+}
+.add-button button {
+  font-weight: 700;
+  background: cadetblue;
+  margin: 8px 4px;
+  border-radius: 7px;
+  color: #fff;
+  border: navajowhite;
+  padding: 4px 12px;
+}

@@ -1,0 +1,13 @@
+.sign-up a {
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #fff;
+    color: #444;
+    padding: 6px 11px;
+    border-radius: 10px;
+}
+.sign-up a:hover{
+    background-color: green;
+    color: #fff;
+}
